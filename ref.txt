@@ -6,6 +6,9 @@ Ref:
 5, git rm filename.txt  //delate
 6, git reset --hard HEAD  //reset last done
 7, git commit -m 'your commit content/remark'
-8, git push -u origin master  //synchronize to github
-9, 
+8, git push -u origin master  //synchronize to github  --first
+9, git push  //second
+10, git fetch origin //check github modify
+11, git pull  //github ---to---update local
+
 
