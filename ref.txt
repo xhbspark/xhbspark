@@ -10,5 +10,5 @@ Ref:
 9, git push  //second
 10, git fetch origin //check github modify
 11, git pull  //github ---to---update local
-
+12, git status // get github status
 
