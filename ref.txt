@@ -14,6 +14,10 @@ Ref:
 13, git branch // check current branch
 14, git branch name // create a name branch
 15, git checkout branch-name //switch current branch
+16, git merge branch-name //merger the branch before commit modify file
+	//and reminder merge failed ,use git status find both branch modified
+	//should use vim delate  <<<<<< or >>>>> or =====
+	//last commit file 
 
 
 
