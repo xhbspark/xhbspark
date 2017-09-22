@@ -11,4 +11,9 @@ Ref:
 10, git fetch origin //check github modify
 11, git pull  //github ---to---update local
 12, git status // get github status
+13, git branch // check current branch
+14, git branch name // create a name branch
+15, git checkout branch-name //switch current branch
+
+
 
