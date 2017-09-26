@@ -18,6 +18,7 @@ Ref:
 	//and reminder merge failed ,use git status find both branch modified
 	//should use vim delate  <<<<<< or >>>>> or =====
 	//last commit file 
-
+17, git diff  //check modify content
+18, git diff --cached //check buf modify content
 
 
