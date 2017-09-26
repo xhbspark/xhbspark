@@ -7,17 +7,32 @@ print('Hello World')
 #else:
 #	print("Your number is greater than 100")
 
-amout = float(input("Enter amount: "))
-inrate = float(input("Enter Interest rate: "))
-period = int(input("Enter period: "))
-value = 0
-year = 1
+#amout = float(input("Enter amount: "))
+#inrate = float(input("Enter Interest rate: "))
+#period = int(input("Enter period: "))
+#value = 0
+#year = 1
 
-while year <= period:
-	value = amout+(inrate*amout)
-	print("Year {} Rs. {:.2f}".format(year,value))
-	amout = value
-	year = year + 1
+#while year <= period:
+#	value = amout+(inrate*amout)
+#	print("Year {} Rs. {:.2f}".format(year,value))
+#	amout = value
+#	year = year + 1
+
+import math
+
+v=math.pi*2*2
+print("rat {} val {:.5f}".format(2,v))
+
+
+
+
+
+
+
+
+
+
 
 
 
