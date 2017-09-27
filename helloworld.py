@@ -24,6 +24,19 @@ import math
 v=math.pi*2*2
 print("rat {} val {:.5f}".format(2,v))
 
+i=1
+print("-"*60)
+while i<11:
+	n=1
+	while n<=10:
+		print("{:4d}".format(i*n),end=' ')
+		n += 1
+	print()
+	i += 1
+print("-"*50)
+
+
+
 
 
 
