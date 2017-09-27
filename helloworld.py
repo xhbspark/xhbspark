@@ -22,10 +22,10 @@ print('Hello World')
 import math
 
 v=math.pi*2*2
-print("rat {} val {:.5f}".format(2,v))
+print("hat {} val {:.5f}".format(2,v))
 
 i=1
-print("-"*60)
+print("-"*50)
 while i<11:
 	n=1
 	while n<=10:
@@ -34,10 +34,6 @@ while i<11:
 	print()
 	i += 1
 print("-"*50)
-
-
-
-
 
 
 

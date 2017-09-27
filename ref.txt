@@ -26,4 +26,13 @@ Ref:
               True	elif	in	try	and	else	is	while
               as	except	lambda	with	assert	finally	nonlocal	              yield	break	for	not	class	from	or	continue              global	pass
 
+20 list:   a=['x1','x2','x3']
+   tuple:  b=('x1','x2','x3')
+   dic:    c={'xiao':29,'xie':28}
+
+
+
+
+
+
 
