@@ -66,6 +66,7 @@ for x in filetext[::]:
 #	if t.isdigit():
 #		print(t,end='')
 #	x = x+1
+file.close()
 print()
 
 
