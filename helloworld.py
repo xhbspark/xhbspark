@@ -53,9 +53,15 @@ file=open('/home/shiyanlou/xhbspark/String.txt')
 filetext=file.read()
 print(filetext)
 x=0
-for x in len(filetext):
-	t=filetext[x]
-
+#while x<len(filetext):
+for x in filetext[::]:
+	if x.isdigit():
+		print(x,end='')
+#	t=filetext[x]
+#	if t.isdigit():
+#		print(t,end='')
+#	x = x+1
+print()
 
 
 
