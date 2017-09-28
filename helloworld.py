@@ -43,12 +43,22 @@ print()
 print('list: ')
 print(list(range(1,15,3)))
 
-s=input("please enter string: ")
-a=s[::-1]
-if a==s:
-	print("this is pali")
-else:
-	print("this is not pali")
+#s=input("please enter string: ")
+#a=s[::-1]
+#if a==s:
+#	print("this is pali")
+#else:
+#	print("this is not pali")
+file=open('/home/shiyanlou/xhbspark/String.txt')
+filetext=file.read()
+print(filetext)
+x=0
+for x in len(filetext):
+	t=filetext[x]
+
+
+
+
 
 
 
