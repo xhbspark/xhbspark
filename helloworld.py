@@ -35,8 +35,20 @@ while i<11:
 	i += 1
 print("-"*50)
 
+a=['xiao','hai','bin']
+for x in a:
+	print(x,end=' ')
+print()
 
+print('list: ')
+print(list(range(1,15,3)))
 
+s=input("please enter string: ")
+a=s[::-1]
+if a==s:
+	print("this is pali")
+else:
+	print("this is not pali")
 
 
 
