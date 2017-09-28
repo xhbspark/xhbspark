@@ -59,10 +59,20 @@ def liner(a,b):
 taxes=liner(0.3,2)
 print('liner: ',taxes(10e6))
 
+print('Class Function*************')
+class linear:
+	def __init__(self,a,b):
+		self.a,self.b=a,b
+	def __call__(self,x):
+		return self.a*x+self.b
+taxes2=linear(0.3,2)
+print('linear2: ',taxes2(10e6))
 
-
-
-
+print('map Function***************')
+lst=[1,2,3,4,5]
+def squre(num):
+	return num*num
+print(list(map(squre,lst)))
 
 
 
