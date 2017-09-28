@@ -43,12 +43,17 @@ print()
 print('list: ')
 print(list(range(1,15,3)))
 
-#s=input("please enter string: ")
+def pali(s):
+	return s==s[::-1]
+if __name__ == '__main__':
+	s=input("please enter string: ")
 #a=s[::-1]
 #if a==s:
-#	print("this is pali")
-#else:
-#	print("this is not pali")
+	if pali(s):
+		print("this is pali")
+	else:
+		print("this is not pali")
+
 file=open('/home/shiyanlou/xhbspark/String.txt')
 filetext=file.read()
 print(filetext)
