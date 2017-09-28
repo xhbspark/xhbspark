@@ -51,6 +51,20 @@ print('print(longest_side.__doc__)')
 print(longest_side.__doc__)
 print('side: ',longest_side(4,5))
 
+print('HOF Function***************')
+def liner(a,b):
+	def result(x):
+		return a*x+b
+	return result
+taxes=liner(0.3,2)
+print('liner: ',taxes(10e6))
+
+
+
+
+
+
+
 
 
 
