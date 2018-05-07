@@ -32,7 +32,8 @@ Ref:
 
 21  mkdir  创建文件或者文件夹
 
-
-
-
+22 sudo python3 -m pip install --upgrade pip
+   sudo pip install pandas -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+   sudo pip install matplotlib -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+   sudo pip install seaborn scipy  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
 
